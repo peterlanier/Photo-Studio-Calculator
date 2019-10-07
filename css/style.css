@@ -1,0 +1,211 @@
+.photo_calc_confirmation {
+  width: 100%;
+  text-align: center;
+}
+
+.photo_calc_confirmation table {
+  border: none !important;
+  max-width: 600px;
+  margin: auto !important;
+}
+
+.photo_calc_confirmation table td {
+  border: none !important;
+  padding: 5px;
+}
+
+.photo_calc_confirmation table td.td_right {
+  text-align: right;
+}
+
+.photo_calc_confirmation table.confirmation_table_1 tr td {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.photo_calc_confirmation .confirmation_num {
+}
+
+.photo_calc_confirmation table.confirmation_table_2 {
+  margin-top: 30px !important;
+}
+
+.photo_calc_confirmation table.confirmation_table_2 .photo_label {
+  font-size: 24px;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.photo_calc_confirmation table.confirmation_table_2 .confirmation_num {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.photo_calc_confirmation .td_strikethrough {
+  text-decoration: line-through;
+}
+
+.photo_calc_confirmation .td_red {
+  color: #864747;
+}
+
+.photo_calc_confirmation .photo_total {
+  color: green;
+}
+
+body #gform_wrapper_3 {
+}
+
+/* keep it mobile friendly by only applying these styles for larger viewports */
+/*@media only screen and (min-width: 641px) {
+ 
+ body #gform_wrapper_3 { 
+  max-width: 50%;
+  margin: 0 auto;
+ }
+ 
+ body #gform_wrapper_3 ul li.gfield .ginput_container,
+ body #gform_wrapper_3 ul li.gfield .gfield_description,
+ body #gform_wrapper_3 div.ginput_complex label,
+ body #gform_wrapper_3 input:not([type='radio']):not([type='checkbox']):not([type='submit']), 
+ body #gform_wrapper_3 select, 
+ body #gform_wrapper_3 textarea { 
+  text-align:center;
+ }
+ 
+ body #gform_wrapper_3 ul.top_label li.gfield label.gfield_label {
+  text-align: center;
+  display: block;
+ }
+   
+  body #gform_wrapper_3 .gform_footer,
+  body #gform_wrapper_3 .gform_page_footer{
+    text-align: center;
+  }
+ 
+}*/
+
+/*GRAVITY FORMS BUTTON*/
+body #gform_wrapper_3 .gform_footer input[type="submit"] {
+  color: #ffffff;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid rgba(114, 114, 114, 0.4);
+  border-radius: 1px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  box-shadow: 0 1px 0px rgba(114, 114, 114, 0.3);
+  -moz-box-shadow: 0 1px 0px rgba(114, 114, 114, 0.3);
+  -webkit-box-shadow: 0 1px 0px rgba(114, 114, 114, 0.3);
+  background-color: #0096d6;
+  width: 100%;
+
+  text-transform: uppercase;
+  font-size: 1.5em;
+}
+
+body .gform_wrapper_3 .gform_footer input[type="submit"]:hover {
+  border: 1px solid rgba(114, 114, 114, 0.6);
+  background-color: #444444;
+}
+
+@media only screen and (min-width: 600px) {
+  .gfield_label {
+    margin-left: -46px;
+  }
+
+  #field_3_17 .gfield_label,
+  #field_3_1 .gfield_label {
+    margin-left: 0px;
+  }
+}
+
+.gform_wrapper .gfield_required {
+  color: black !important;
+}
+
+.gform_wrapper .instruction {
+  display: none;
+}
+
+.fa-question-circle {
+  color: #bcdbea;
+}
+
+.tooltip {
+  background: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  padding: 10px 20px;
+}
+
+.tooltip h4 {
+  font-weight: bold;
+}
+
+.my-tooltip {
+  display: inline-block;
+}
+
+.my-tooltip h4,
+.my-tooltip table {
+  font-style: normal;
+}
+
+.my-tooltip table th {
+  font-size: 12px;
+}
+
+.my-tooltip table td {
+  font-size: 16px;
+}
+
+.numberCircle {
+  border-radius: 50%;
+
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  padding-top: 1px;
+  font-weight: bold;
+  background: #f70;
+  border: 2px solid #f70;
+  color: #fff;
+  text-align: center;
+  line-height: 18px;
+  font: 26px Arial, sans-serif;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+/* remove the asterisks in gravity forms */
+.gform_wrapper .gfield_required {
+  display: none;
+}
+
+/* styles for tooltips not in confirmation */
+.form-tooltips{
+  margin-left: 5px;
+}
+
+.form-tooltip-content{
+  color: #303030;
+  font-weight: 400;
+}
+
+.my-btn-style {
+  display: inline-block;
+  background: none;
+  padding: 10px 40px;
+  margin: 15px 30px;
+  transition: all 0.3s;
+  border: 3px solid #0e83cd;
+}
+
+.my-btn-style:hover {
+  background: #0e83cd;
+  color: #ffffff;
+  
+}
